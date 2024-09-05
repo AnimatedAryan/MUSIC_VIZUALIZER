@@ -49,7 +49,6 @@ void setup()
 }
 
 // FUNCTION TO GENERATE COLOR BASED ON VIRTUAL WHEEL
-// https://github.com/NeverPlayLegit/Rainbow-Fader-FastLED/blob/master/rainbow.ino
 CRGB Scroll(int pos) {
   CRGB color (0,0,0);
   if(pos < 85) {
@@ -71,7 +70,6 @@ CRGB Scroll(int pos) {
 // FUNCTION TO GET AND SET COLOR
 // THE ORIGINAL FUNCTION WENT BACKWARDS
 // THE MODIFIED FUNCTION SENDS WAVES OUT FROM FIRST LED
-// https://github.com/NeverPlayLegit/Rainbow-Fader-FastLED/blob/master/rainbow.ino
 void rainbow()
 {
   for(int i = NUM_LEDS - 1; i >= 0; i--) {
