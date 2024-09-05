@@ -1,9 +1,6 @@
 #include <FastLED.h>
 
-// Arduino Music Visualizer 0.2
-
-// This music visualizer works off of analog input from a 3.5mm headphone jack
-// Just touch jumper wire from A0 to tip of 3.5mm headphone jack
+// Arduino Music Visualizer 1.0
 
 // The code is dynamic and can handle variable amounts of LEDs
 // as long as you adjust NUM_LEDS according to the amount of LEDs you are using
